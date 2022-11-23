@@ -1,0 +1,206 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net6.0-android;net6.0-ios;net6.0-maccatalyst</TargetFrameworks>
+		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net6.0-windows10.0.19041.0</TargetFrameworks>
+		<!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
+		<!-- <TargetFrameworks>$(TargetFrameworks);net6.0-tizen</TargetFrameworks> -->
+		<OutputType>Exe</OutputType>
+		<RootNamespace>Alfabet</RootNamespace>
+		<UseMaui>true</UseMaui>
+		<SingleProject>true</SingleProject>
+		<ImplicitUsings>enable</ImplicitUsings>
+
+		<!-- Display name -->
+		<ApplicationTitle>Alfabet</ApplicationTitle>
+
+		<!-- App Identifier -->
+		<ApplicationId>com.companyname.alfabet</ApplicationId>
+		<ApplicationIdGuid>6DCE0F7C-E52B-4F59-8ABB-4B352B0FBAC0</ApplicationIdGuid>
+
+		<!-- Versions -->
+		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+		<ApplicationVersion>1</ApplicationVersion>
+
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">14.2</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'">14.0</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
+		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
+	</PropertyGroup>
+	<PropertyGroup Condition="$(TargetFramework.Contains('-android')) and '$(Configuration)' == 'Release'">
+		<AndroidKeyStore>True</AndroidKeyStore>
+		<AndroidSigningKeyStore>C:/klucze/key.keystore</AndroidSigningKeyStore>
+		<AndroidSigningStorePass>t3CHn1c$</AndroidSigningStorePass>
+		<AndroidSigningKeyAlias>MauiAlfabet</AndroidSigningKeyAlias>
+		<AndroidSigningKeyPass>t3CHn1c$</AndroidSigningKeyPass>
+	</PropertyGroup> 
+
+	<ItemGroup>
+		<!-- App Icon -->
+		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
+		<!-- Splash Screen -->
+		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
+
+		<!-- Images -->
+		<MauiImage Include="Resources\Images\*" />
+		<MauiImage Update="Resources\Images\dotnet_bot.svg" BaseSize="168,208" />
+
+		<!-- Custom Fonts -->
+		<MauiFont Include="Resources\Fonts\*" />
+
+		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
+		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="CommunityToolkit.Maui" Version="1.2.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Popups\auto.xaml.cs">
+	    <DependentUpon>auto.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\slon.xaml.cs">
+	    <DependentUpon>slon.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\traktor.xaml.cs">
+	    <DependentUpon>traktor.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\ucho.xaml.cs">
+	    <DependentUpon>ucho.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\waz.xaml.cs">
+	    <DependentUpon>waz.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\rower.xaml.cs">
+	    <DependentUpon>rower.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\xylofon.xaml.cs">
+	    <DependentUpon>xylofon.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\yeti.xaml.cs">
+	    <DependentUpon>yeti.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\zebra.xaml.cs">
+	    <DependentUpon>zebra.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\pies.xaml.cs">
+	    <DependentUpon>pies.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\ogorek.xaml.cs">
+	    <DependentUpon>ogorek.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\nosorozec.xaml.cs">
+	    <DependentUpon>nosorozec.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\malpa.xaml.cs">
+	    <DependentUpon>malpa.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\lew.xaml.cs">
+	    <DependentUpon>lew.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\krokodyl.xaml.cs">
+	    <DependentUpon>krokodyl.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\jajo.xaml.cs">
+	    <DependentUpon>jajo.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\iglo.xaml.cs">
+	    <DependentUpon>iglo.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\gruszka.xaml.cs">
+	    <DependentUpon>gruszka.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\helikopter.xaml.cs">
+	    <DependentUpon>helikopter.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\falubaz.xaml.cs">
+	    <DependentUpon>falubaz.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\eskimos.xaml.cs">
+	    <DependentUpon>eskimos.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\dynia.xaml.cs">
+	    <DependentUpon>dynia.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\cytryna.xaml.cs">
+	    <DependentUpon>cytryna.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Popups\slon.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\traktor.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\ucho.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\waz.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\rower.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\xylofon.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\yeti.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\zebra.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\pies.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\ogorek.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\nosorozec.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\malpa.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\lew.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\krokodyl.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\jajo.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\iglo.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\gruszka.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\helikopter.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\falubaz.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\eskimos.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\dynia.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\cytryna.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Resources\AppIcon\" />
+	</ItemGroup>
+
+</Project>

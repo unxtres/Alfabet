@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="456" height="456" viewBox="0 0 456 456" version="1.1" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <path id="path-0" style="fill: none;" d="M 26.164 123.344 C 35.81 139.777 43.939 146.929 50.726 154.848 C 77.32 185.875 105.222 207.58 138.295 231.204 C 177.959 254.913 206.365 264.867 232.272 279.26 L 238.679 282.998 C 239.189 283.216 247.756 285.325 247.756 285.667"/>
+  </defs>
+  <text style="fill: rgb(29, 68, 208); font-family: Cooper; font-size: 28px; paint-order: markers; stroke: rgb(186, 218, 85); stroke-linecap: square; stroke-linejoin: miter; stroke-width: 0.952377px; white-space: pre; vector-effect: non-scaling-stroke;" transform="matrix(2.364515, 0, 0, 1.835503, 26.13365, -84.46431)"><textPath xlink:href="#path-0">ALFABET</textPath></text>
+</svg>
