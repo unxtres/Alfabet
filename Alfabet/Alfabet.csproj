@@ -59,23 +59,242 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Popups\auto.xaml.cs">
-	    <DependentUpon>auto.xaml</DependentUpon>
+	  <Compile Update="Popups\a1.xaml.cs">
+	    <DependentUpon>a1.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Popups\slon.xaml.cs">
-	    <DependentUpon>slon.xaml</DependentUpon>
+	  <Compile Update="Popups\a2.xaml.cs">
+	    <DependentUpon>a2.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Popups\traktor.xaml.cs">
-	    <DependentUpon>traktor.xaml</DependentUpon>
+	  <Compile Update="Popups\a3.xaml.cs">
+	    <DependentUpon>a3.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Popups\ucho.xaml.cs">
-	    <DependentUpon>ucho.xaml</DependentUpon>
+	  <Compile Update="Popups\a0.xaml.cs">
+	    <DependentUpon>a0.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Popups\waz.xaml.cs">
-	    <DependentUpon>waz.xaml</DependentUpon>
+	  <Compile Update="Popups\b4.xaml.cs">
+	    <DependentUpon>b4.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Popups\rower.xaml.cs">
-	    <DependentUpon>rower.xaml</DependentUpon>
+	  <Compile Update="Popups\b3.xaml.cs">
+	    <DependentUpon>b3.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\b2.xaml.cs">
+	    <DependentUpon>b2.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\b1.xaml.cs">
+	    <DependentUpon>b1.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\b0.xaml.cs">
+	    <DependentUpon>b0.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\c0.xaml.cs">
+	    <DependentUpon>c0.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\c1.xaml.cs">
+	    <DependentUpon>c1.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\c2.xaml.cs">
+	    <DependentUpon>c2.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\c3.xaml.cs">
+	    <DependentUpon>c3.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\d0.xaml.cs">
+	    <DependentUpon>d0.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\d1.xaml.cs">
+	    <DependentUpon>d1.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\d2.xaml.cs">
+	    <DependentUpon>d2.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\e0.xaml.cs">
+	    <DependentUpon>e0.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\e1.xaml.cs">
+	    <DependentUpon>e1.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\e2.xaml.cs">
+	    <DependentUpon>e2.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\f0.xaml.cs">
+	    <DependentUpon>f0.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\f1.xaml.cs">
+	    <DependentUpon>f1.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\f2.xaml.cs">
+	    <DependentUpon>f2.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\f3.xaml.cs">
+	    <DependentUpon>f3.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\g0.xaml.cs">
+	    <DependentUpon>g0.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\g1.xaml.cs">
+	    <DependentUpon>g1.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\g2.xaml.cs">
+	    <DependentUpon>g2.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\h0.xaml.cs">
+	    <DependentUpon>h0.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\h1.xaml.cs">
+	    <DependentUpon>h1.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\h2.xaml.cs">
+	    <DependentUpon>h2.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\i0.xaml.cs">
+	    <DependentUpon>i0.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\i1.xaml.cs">
+	    <DependentUpon>i1.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\i2.xaml.cs">
+	    <DependentUpon>i2.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\j0.xaml.cs">
+	    <DependentUpon>j0.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\j1.xaml.cs">
+	    <DependentUpon>j1.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\j2.xaml.cs">
+	    <DependentUpon>j2.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\k0.xaml.cs">
+	    <DependentUpon>k0.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\k1.xaml.cs">
+	    <DependentUpon>k1.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\k2.xaml.cs">
+	    <DependentUpon>k2.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\k3.xaml.cs">
+	    <DependentUpon>k3.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\l0.xaml.cs">
+	    <DependentUpon>l0.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\l1.xaml.cs">
+	    <DependentUpon>l1.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\l2.xaml.cs">
+	    <DependentUpon>l2.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\m0.xaml.cs">
+	    <DependentUpon>m0.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\m1.xaml.cs">
+	    <DependentUpon>m1.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\m2.xaml.cs">
+	    <DependentUpon>m2.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\m3.xaml.cs">
+	    <DependentUpon>m3.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\n0.xaml.cs">
+	    <DependentUpon>n0.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\n1.xaml.cs">
+	    <DependentUpon>n1.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\n2.xaml.cs">
+	    <DependentUpon>n2.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\o0.xaml.cs">
+	    <DependentUpon>o0.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\o1.xaml.cs">
+	    <DependentUpon>o1.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\o2.xaml.cs">
+	    <DependentUpon>o2.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\o3.xaml.cs">
+	    <DependentUpon>o3.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\p0.xaml.cs">
+	    <DependentUpon>p0.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\p1.xaml.cs">
+	    <DependentUpon>p1.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\p2.xaml.cs">
+	    <DependentUpon>p2.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\r0.xaml.cs">
+	    <DependentUpon>r0.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\r1.xaml.cs">
+	    <DependentUpon>r1.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\r2.xaml.cs">
+	    <DependentUpon>r2.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\s0.xaml.cs">
+	    <DependentUpon>s0.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\s1.xaml.cs">
+	    <DependentUpon>s1.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\s2.xaml.cs">
+	    <DependentUpon>s2.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\s3.xaml.cs">
+	    <DependentUpon>s3.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\s4.xaml.cs">
+	    <DependentUpon>s4.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\t0.xaml.cs">
+	    <DependentUpon>t0.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\t1.xaml.cs">
+	    <DependentUpon>t1.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\t2.xaml.cs">
+	    <DependentUpon>t2.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\t3.xaml.cs">
+	    <DependentUpon>t3.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\t4.xaml.cs">
+	    <DependentUpon>t4.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\u0.xaml.cs">
+	    <DependentUpon>u0.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\u1.xaml.cs">
+	    <DependentUpon>u1.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\u2.xaml.cs">
+	    <DependentUpon>u2.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\u3.xaml.cs">
+	    <DependentUpon>u3.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\w0.xaml.cs">
+	    <DependentUpon>w0.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\w1.xaml.cs">
+	    <DependentUpon>w1.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\w2.xaml.cs">
+	    <DependentUpon>w2.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\w3.xaml.cs">
+	    <DependentUpon>w3.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\w4.xaml.cs">
+	    <DependentUpon>w4.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\r3.xaml.cs">
+	    <DependentUpon>r3.xaml</DependentUpon>
 	  </Compile>
 	  <Compile Update="Popups\xylofon.xaml.cs">
 	    <DependentUpon>xylofon.xaml</DependentUpon>
@@ -83,67 +302,289 @@
 	  <Compile Update="Popups\yeti.xaml.cs">
 	    <DependentUpon>yeti.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Popups\zebra.xaml.cs">
-	    <DependentUpon>zebra.xaml</DependentUpon>
+	  <Compile Update="Popups\z0.xaml.cs">
+	    <DependentUpon>z0.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Popups\pies.xaml.cs">
-	    <DependentUpon>pies.xaml</DependentUpon>
+	  <Compile Update="Popups\z1.xaml.cs">
+	    <DependentUpon>z1.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Popups\ogorek.xaml.cs">
-	    <DependentUpon>ogorek.xaml</DependentUpon>
+	  <Compile Update="Popups\z2.xaml.cs">
+	    <DependentUpon>z2.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Popups\nosorozec.xaml.cs">
-	    <DependentUpon>nosorozec.xaml</DependentUpon>
+	  <Compile Update="Popups\z3.xaml.cs">
+	    <DependentUpon>z3.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Popups\malpa.xaml.cs">
-	    <DependentUpon>malpa.xaml</DependentUpon>
+	  <Compile Update="Popups\p3.xaml.cs">
+	    <DependentUpon>p3.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Popups\lew.xaml.cs">
-	    <DependentUpon>lew.xaml</DependentUpon>
+	  <Compile Update="Popups\o4.xaml.cs">
+	    <DependentUpon>o4.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Popups\krokodyl.xaml.cs">
-	    <DependentUpon>krokodyl.xaml</DependentUpon>
+	  <Compile Update="Popups\n3.xaml.cs">
+	    <DependentUpon>n3.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Popups\jajo.xaml.cs">
-	    <DependentUpon>jajo.xaml</DependentUpon>
+	  <Compile Update="Popups\m4.xaml.cs">
+	    <DependentUpon>m4.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Popups\iglo.xaml.cs">
-	    <DependentUpon>iglo.xaml</DependentUpon>
+	  <Compile Update="Popups\l3.xaml.cs">
+	    <DependentUpon>l3.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Popups\gruszka.xaml.cs">
-	    <DependentUpon>gruszka.xaml</DependentUpon>
+	  <Compile Update="Popups\k4.xaml.cs">
+	    <DependentUpon>k4.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Popups\helikopter.xaml.cs">
-	    <DependentUpon>helikopter.xaml</DependentUpon>
+	  <Compile Update="Popups\j3.xaml.cs">
+	    <DependentUpon>j3.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\i3.xaml.cs">
+	    <DependentUpon>i3.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\g3.xaml.cs">
+	    <DependentUpon>g3.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\h3.xaml.cs">
+	    <DependentUpon>h3.xaml</DependentUpon>
 	  </Compile>
 	  <Compile Update="Popups\falubaz.xaml.cs">
 	    <DependentUpon>falubaz.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Popups\eskimos.xaml.cs">
-	    <DependentUpon>eskimos.xaml</DependentUpon>
+	  <Compile Update="Popups\e3.xaml.cs">
+	    <DependentUpon>e3.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Popups\dynia.xaml.cs">
-	    <DependentUpon>dynia.xaml</DependentUpon>
-	  </Compile>
-	  <Compile Update="Popups\cytryna.xaml.cs">
-	    <DependentUpon>cytryna.xaml</DependentUpon>
+	  <Compile Update="Popups\d3.xaml.cs">
+	    <DependentUpon>d3.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Popups\slon.xaml">
+	  <MauiXaml Update="Popups\a1.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Popups\traktor.xaml">
+	  <MauiXaml Update="Popups\a2.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Popups\ucho.xaml">
+	  <MauiXaml Update="Popups\a3.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Popups\waz.xaml">
+	  <MauiXaml Update="Popups\b4.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Popups\rower.xaml">
+	  <MauiXaml Update="Popups\b3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\b2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\b1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\c0.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\c1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\c2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\c3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\d0.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\d1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\d2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\e0.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\e1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\e2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\f0.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\f1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\f2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\f3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\g0.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\g1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\g2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\h0.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\h1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\h2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\i0.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\i1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\i2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\j0.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\j1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\j2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\k0.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\k1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\k2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\k3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\l0.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\l1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\l2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\m0.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\m1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\m2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\m3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\n0.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\n1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\n2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\o0.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\o1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\o2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\o3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\p0.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\p1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\p2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\r0.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\r1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\r2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\s0.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\s1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\s2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\s3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\s4.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\t0.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\t1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\t2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\t3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\t4.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\u0.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\u1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\u2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\u3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\w0.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\w1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\w2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\w3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\w4.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\r3.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Popups\xylofon.xaml">
@@ -152,49 +593,55 @@
 	  <MauiXaml Update="Popups\yeti.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Popups\zebra.xaml">
+	  <MauiXaml Update="Popups\z0.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Popups\pies.xaml">
+	  <MauiXaml Update="Popups\z1.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Popups\ogorek.xaml">
+	  <MauiXaml Update="Popups\z2.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Popups\nosorozec.xaml">
+	  <MauiXaml Update="Popups\z3.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Popups\malpa.xaml">
+	  <MauiXaml Update="Popups\p3.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Popups\lew.xaml">
+	  <MauiXaml Update="Popups\o4.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Popups\krokodyl.xaml">
+	  <MauiXaml Update="Popups\n3.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Popups\jajo.xaml">
+	  <MauiXaml Update="Popups\m4.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Popups\iglo.xaml">
+	  <MauiXaml Update="Popups\l3.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Popups\gruszka.xaml">
+	  <MauiXaml Update="Popups\k4.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Popups\helikopter.xaml">
+	  <MauiXaml Update="Popups\j3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\i3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\g3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\h3.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Popups\falubaz.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Popups\eskimos.xaml">
+	  <MauiXaml Update="Popups\e3.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Popups\dynia.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Popups\cytryna.xaml">
+	  <MauiXaml Update="Popups\d3.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

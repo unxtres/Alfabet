@@ -2,178 +2,32 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Alfabet.MainPage">
-    <FlexLayout JustifyContent="SpaceAround" Wrap="Wrap">
-        <Button
-            Text="A"
-            Clicked="OnAClicked"
-            FontSize="70"
-            WidthRequest="90"
-            HeightRequest="120" 
-            BackgroundColor="Red"/>
-        <Button
-            Text="B"
-            Clicked="OnBClicked"
-            FontSize="70"
-            WidthRequest="90"
-            HeightRequest="120" 
-            BackgroundColor="Orange"/>
-        <Button
-            Text="C"
-            Clicked="OnCClicked"
-            FontSize="70"
-            WidthRequest="90"
-            HeightRequest="120" 
-            BackgroundColor="HotPink"/>
-        <Button
-            Text="D"
-            Clicked="OnDClicked"
-            FontSize="70"
-            WidthRequest="90"
-            HeightRequest="120" 
-            BackgroundColor="YellowGreen"/>
-        <Button
-            Text="E"
-            Clicked="OnEClicked"
-            FontSize="70"
-            WidthRequest="90"
-            HeightRequest="120" 
-            BackgroundColor="Black"/>
-        <Button
-            Text="F"
-            Clicked="OnFClicked"
-            FontSize="70"
-            WidthRequest="90"
-            HeightRequest="120" 
-            BackgroundColor="Fuchsia"/>
-        <Button
-            Text="G"
-            Clicked="OnGClicked"
-            FontSize="70"
-            WidthRequest="90"
-            HeightRequest="120" 
-            BackgroundColor="Red"/>
-        <Button
-            Text="H"
-            Clicked="OnHClicked"
-            FontSize="70"
-            WidthRequest="90"
-            HeightRequest="120" 
-            BackgroundColor="Yellow"/>
-        <Button
-            Text="I"
-            Clicked="OnIClicked"
-            FontSize="70"
-            WidthRequest="90"
-            HeightRequest="120" 
-            BackgroundColor="Pink"/>
-        <Button
-            Text="J"
-            Clicked="OnJClicked"
-            FontSize="70"
-            WidthRequest="90"
-            HeightRequest="120" 
-            BackgroundColor="Blue"/>
-        <Button
-            Text="K"
-            Clicked="OnKClicked"
-            FontSize="70"
-            WidthRequest="90"
-            HeightRequest="120" 
-            BackgroundColor="Green"/>
-        <Button
-            Text="L"
-            Clicked="OnLClicked"
-            FontSize="70"
-            WidthRequest="90"
-            HeightRequest="120" 
-            BackgroundColor="RosyBrown"/>
-        <Button
-            Text="M"
-            Clicked="OnMClicked"
-            FontSize="70"
-            WidthRequest="90"
-            HeightRequest="120" 
-            BackgroundColor="Brown"/>
-        <Button
-            Text="N"
-            Clicked="OnNClicked"
-            FontSize="70"
-            WidthRequest="90"
-            HeightRequest="120" 
-            BackgroundColor="Purple"/>
-        <Button
-            Text="O"
-            Clicked="OnOClicked"
-            FontSize="70"
-            WidthRequest="90"
-            HeightRequest="120" 
-            BackgroundColor="Gray"/>
-        <Button
-            Text="P"
-            Clicked="OnPClicked"
-            FontSize="70"
-            WidthRequest="90"
-            HeightRequest="120" 
-            BackgroundColor="OrangeRed"/>
-        <Button
-            Text="R"
-            Clicked="OnRClicked"
-            FontSize="70"
-            WidthRequest="90"
-            HeightRequest="120" 
-            BackgroundColor="BlanchedAlmond"/>
-        <Button
-            Text="S"
-            Clicked="OnSClicked"
-            FontSize="70"
-            WidthRequest="90"
-            HeightRequest="120" 
-            BackgroundColor="DodgerBlue"/>
-        <Button
-            Text="T"
-            Clicked="OnTClicked"
-            FontSize="70"
-            WidthRequest="90"
-            HeightRequest="120" 
-            BackgroundColor="CadetBlue"/>
-        <Button
-            Text="U"
-            Clicked="OnUClicked"
-            FontSize="70"
-            WidthRequest="90"
-            HeightRequest="120" 
-            BackgroundColor="SaddleBrown"/>
-        <Button
-            Text="W"
-            Clicked="OnWClicked"
-            FontSize="70"
-            WidthRequest="90"
-            HeightRequest="120" 
-            BackgroundColor="DarkOrange"/>
-        <Button
-            Text="X"
-            Clicked="OnXClicked"
-            FontSize="70"
-            WidthRequest="90"
-            HeightRequest="120" 
-            BackgroundColor="LightCyan"/>
-        <Button
-            Text="Y"
-            Clicked="OnYClicked"
-            FontSize="70"
-            WidthRequest="90"
-            HeightRequest="120" 
-            BackgroundColor="DarkGoldenrod"/>
-        <Button
-            Text="Z"
-            Clicked="OnZClicked"
-            FontSize="70"
-            WidthRequest="90"
-            HeightRequest="120" 
-            BackgroundColor="DarkMagenta"/>
-
-    </FlexLayout>
-
-
-
+    
+   
+    <Grid RowDefinitions="3,*,*,*,*,*,*,*,*,3" ColumnDefinitions="3,*,*,*,3" ColumnSpacing="5" RowSpacing="5">
+        <Button Grid.Row="1" Grid.Column="1" Text="A" x:Name="A" Clicked="OnAClicked" BackgroundColor="Red" FontAutoScalingEnabled="True" FontAttributes="Bold" FontSize="40"/>
+        <Button Grid.Row="1" Grid.Column="2" Text="B" x:Name="B" Clicked="OnBClicked" BackgroundColor="Orange" FontAutoScalingEnabled="True" FontAttributes="Bold" FontSize="40"/>
+        <Button Grid.Row="1" Grid.Column="3" Text="C" x:Name="C" Clicked="OnCClicked" BackgroundColor="HotPink" FontAutoScalingEnabled="True" FontAttributes="Bold" FontSize="40"/>
+        <Button Grid.Row="2" Grid.Column="1" Text="D" x:Name="D" Clicked="OnDClicked" BackgroundColor="YellowGreen" FontAutoScalingEnabled="True" FontAttributes="Bold" FontSize="40"/>
+        <Button Grid.Row="2" Grid.Column="2" Text="E" x:Name="E" Clicked="OnEClicked" BackgroundColor="Black" FontAutoScalingEnabled="True" FontAttributes="Bold" FontSize="40"/>
+        <Button Grid.Row="2" Grid.Column="3" Text="F" x:Name="F" Clicked="OnFClicked" BackgroundColor="Fuchsia" FontAutoScalingEnabled="True" FontAttributes="Bold" FontSize="40"/>
+        <Button Grid.Row="3" Grid.Column="1"  Text="G" x:Name="G" Clicked="OnGClicked" BackgroundColor="Red" FontAutoScalingEnabled="True" FontAttributes="Bold" FontSize="40"/>
+        <Button Grid.Row="3" Grid.Column="2"  Text="H" x:Name="H" Clicked="OnHClicked" BackgroundColor="Yellow" FontAutoScalingEnabled="True" FontAttributes="Bold" FontSize="40"/>
+        <Button Grid.Row="3" Grid.Column="3"  Text="I" x:Name="I" Clicked="OnIClicked" BackgroundColor="Pink" FontAutoScalingEnabled="True" FontAttributes="Bold" FontSize="40"/>
+        <Button Grid.Row="4" Grid.Column="1"  Text="J" x:Name="J" Clicked="OnJClicked" BackgroundColor="Blue" FontAutoScalingEnabled="True" FontAttributes="Bold" FontSize="40"/>
+        <Button Grid.Row="4" Grid.Column="2"  Text="K" x:Name="K" Clicked="OnKClicked" BackgroundColor="Green" FontAutoScalingEnabled="True" FontAttributes="Bold" FontSize="40"/>
+        <Button Grid.Row="4" Grid.Column="3"  Text="L" x:Name="L" Clicked="OnLClicked" BackgroundColor="RosyBrown" FontAutoScalingEnabled="True" FontAttributes="Bold" FontSize="40"/>
+        <Button Grid.Row="5" Grid.Column="1"  Text="M" x:Name="M" Clicked="OnMClicked" BackgroundColor="Brown" FontAutoScalingEnabled="True" FontAttributes="Bold" FontSize="40"/>
+        <Button Grid.Row="5" Grid.Column="2"  Text="N" x:Name="N" Clicked="OnNClicked" BackgroundColor="Purple" FontAutoScalingEnabled="True" FontAttributes="Bold" FontSize="40"/>
+        <Button Grid.Row="5" Grid.Column="3"  Text="O" x:Name="O" Clicked="OnOClicked" BackgroundColor="Gray" FontAutoScalingEnabled="True" FontAttributes="Bold" FontSize="40"/>
+        <Button Grid.Row="6" Grid.Column="1"  Text="P" x:Name="P" Clicked="OnPClicked" BackgroundColor="OrangeRed" FontAutoScalingEnabled="True" FontAttributes="Bold" FontSize="40"/>
+        <Button Grid.Row="6" Grid.Column="2"  Text="R" x:Name="R" Clicked="OnRClicked" BackgroundColor="BlanchedAlmond" FontAutoScalingEnabled="True" FontAttributes="Bold" FontSize="40"/>
+        <Button Grid.Row="6" Grid.Column="3"  Text="S" x:Name="S" Clicked="OnSClicked" BackgroundColor="DodgerBlue" FontAutoScalingEnabled="True" FontAttributes="Bold" FontSize="40"/>
+        <Button Grid.Row="7" Grid.Column="1"  Text="T" x:Name="T" Clicked="OnTClicked" BackgroundColor="CadetBlue" FontAutoScalingEnabled="True" FontAttributes="Bold" FontSize="40"/>
+        <Button Grid.Row="7" Grid.Column="2"  Text="U" x:Name="U" Clicked="OnUClicked" BackgroundColor="SaddleBrown" FontAutoScalingEnabled="True" FontAttributes="Bold" FontSize="40"/>
+        <Button Grid.Row="7" Grid.Column="3"  Text="W" x:Name="W" Clicked="OnWClicked" BackgroundColor="DarkOrange" FontAutoScalingEnabled="True" FontAttributes="Bold" FontSize="40"/>
+        <Button Grid.Row="8" Grid.Column="1"  Text="X" x:Name="X" Clicked="OnXClicked" BackgroundColor="LightCyan" FontAutoScalingEnabled="True" FontAttributes="Bold" FontSize="40"/>
+        <Button Grid.Row="8" Grid.Column="2"  Text="Y" x:Name="Y" Clicked="OnYClicked" BackgroundColor="DarkGoldenrod" FontAutoScalingEnabled="True" FontAttributes="Bold" FontSize="40"/>
+        <Button Grid.Row="8" Grid.Column="3"  Text="Z" x:Name="Z" Clicked="OnZClicked" BackgroundColor="DarkMagenta" FontAutoScalingEnabled="True" FontAttributes="Bold" FontSize="40"/>
+    </Grid>
 </ContentPage>
