@@ -15,7 +15,7 @@
 		<ApplicationTitle>Alfabet</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.companyname.alfabet</ApplicationId>
+		<ApplicationId>com.ATElectronics.Alfabet</ApplicationId>
 		<ApplicationIdGuid>6DCE0F7C-E52B-4F59-8ABB-4B352B0FBAC0</ApplicationIdGuid>
 
 		<!-- Versions -->
@@ -38,8 +38,9 @@
 	</PropertyGroup> 
 
 	<ItemGroup>
-		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
+		<!-- App Icon
+		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" /> -->
+		<MauiIcon Include="Resources\AppIcon\icon.png" BaseSize="424,520"/>
 		<!-- Splash Screen -->
 		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
 
