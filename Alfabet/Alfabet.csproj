@@ -15,7 +15,7 @@
 		<ApplicationTitle>Alfabet</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.ATElectronics.Alfabet</ApplicationId>
+		<ApplicationId>com.companyname.alfabet</ApplicationId>
 		<ApplicationIdGuid>6DCE0F7C-E52B-4F59-8ABB-4B352B0FBAC0</ApplicationIdGuid>
 
 		<!-- Versions -->
