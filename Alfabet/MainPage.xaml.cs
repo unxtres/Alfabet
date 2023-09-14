@@ -1,5 +1,4 @@
 ﻿using CommunityToolkit.Maui.Views;
-using Java.Lang;
 
 namespace Alfabet;
 public partial class MainPage : ContentPage
@@ -19,7 +18,7 @@ public partial class MainPage : ContentPage
     {
         while (number == temp)
         {
-            number = rnd.Next(0, 4);
+            number = rnd.Next(0, 5);
         }
         temp = number;
 
@@ -47,6 +46,12 @@ public partial class MainPage : ContentPage
                 {
                     var a3 = new a3();
                     this.ShowPopup(a3);
+                    break;
+                }
+            case 4:
+                {
+                    var a4 = new a4();
+                    this.ShowPopup(a4);
                     break;
                 }
         }

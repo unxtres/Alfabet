@@ -40,7 +40,7 @@
 	<ItemGroup>
 		<!-- App Icon
 		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" /> -->
-		<MauiIcon Include="Resources\AppIcon\icon.png" BaseSize="424,520"/>
+		<MauiIcon Include="Resources\AppIcon\icon.png" BaseSize="424,520" />
 		<!-- Splash Screen -->
 		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
 
@@ -65,6 +65,9 @@
 	  </Compile>
 	  <Compile Update="Popups\a2.xaml.cs">
 	    <DependentUpon>a2.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\a4.xaml.cs">
+	    <DependentUpon>a4.xaml</DependentUpon>
 	  </Compile>
 	  <Compile Update="Popups\a3.xaml.cs">
 	    <DependentUpon>a3.xaml</DependentUpon>
@@ -361,6 +364,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Popups\a2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\a4.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Popups\a3.xaml">
