@@ -129,6 +129,9 @@
 	  <Compile Update="Popups\f2.xaml.cs">
 	    <DependentUpon>f2.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Popups\f4.xaml.cs">
+	    <DependentUpon>f4.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Popups\f3.xaml.cs">
 	    <DependentUpon>f3.xaml</DependentUpon>
 	  </Compile>
@@ -179,6 +182,9 @@
 	  </Compile>
 	  <Compile Update="Popups\k3.xaml.cs">
 	    <DependentUpon>k3.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\k5.xaml.cs">
+	    <DependentUpon>k5.xaml</DependentUpon>
 	  </Compile>
 	  <Compile Update="Popups\l0.xaml.cs">
 	    <DependentUpon>l0.xaml</DependentUpon>
@@ -252,6 +258,9 @@
 	  <Compile Update="Popups\s3.xaml.cs">
 	    <DependentUpon>s3.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Popups\s5.xaml.cs">
+	    <DependentUpon>s5.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Popups\s4.xaml.cs">
 	    <DependentUpon>s4.xaml</DependentUpon>
 	  </Compile>
@@ -293,6 +302,9 @@
 	  </Compile>
 	  <Compile Update="Popups\w3.xaml.cs">
 	    <DependentUpon>w3.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Popups\w5.xaml.cs">
+	    <DependentUpon>w5.xaml</DependentUpon>
 	  </Compile>
 	  <Compile Update="Popups\w4.xaml.cs">
 	    <DependentUpon>w4.xaml</DependentUpon>
@@ -423,6 +435,9 @@
 	  <MauiXaml Update="Popups\f2.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Popups\f4.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Popups\f3.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -472,6 +487,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Popups\k3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\k5.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Popups\l0.xaml">
@@ -546,6 +564,9 @@
 	  <MauiXaml Update="Popups\s3.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Popups\s5.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Popups\s4.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -586,6 +607,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Popups\w3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\w5.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Popups\w4.xaml">

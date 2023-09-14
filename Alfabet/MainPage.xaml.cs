@@ -218,7 +218,7 @@ public partial class MainPage : ContentPage
         {
             while (number == temp)
             {
-                number = rnd.Next(0, 4);
+                number = rnd.Next(0, 5);
             }
             temp = number;
 
@@ -246,6 +246,12 @@ public partial class MainPage : ContentPage
                     {
                         var f3 = new f3();
                         this.ShowPopup(f3);
+                        break;
+                    }
+                case 4:
+                    {
+                        var f4 = new f4();
+                        this.ShowPopup(f4);
                         break;
                     }
             }
@@ -399,7 +405,7 @@ public partial class MainPage : ContentPage
     {
         while (number == temp)
         {
-            number = rnd.Next(0, 5);
+            number = rnd.Next(0, 6);
         }
         temp = number;
 
@@ -433,6 +439,12 @@ public partial class MainPage : ContentPage
                 {
                     var k4 = new k4();
                     this.ShowPopup(k4);
+                    break;
+                }
+            case 5:
+                {
+                    var k5 = new k5();
+                    this.ShowPopup(k5);
                     break;
                 }
         }
@@ -669,7 +681,7 @@ public partial class MainPage : ContentPage
     {
         while (number == temp)
         {
-            number = rnd.Next(0, 5);
+            number = rnd.Next(0, 6);
         }
         temp = number;
 
@@ -703,6 +715,12 @@ public partial class MainPage : ContentPage
                 {
                     var s4 = new s4();
                     this.ShowPopup(s4);
+                    break;
+                }
+            case 5:
+                {
+                    var s5 = new s5();
+                    this.ShowPopup(s5);
                     break;
                 }
         }
@@ -789,7 +807,7 @@ public partial class MainPage : ContentPage
     {
         while (number == temp)
         {
-            number = rnd.Next(0, 5);
+            number = rnd.Next(0, 6);
         }
         temp = number;
 
@@ -823,6 +841,12 @@ public partial class MainPage : ContentPage
                 {
                     var w4 = new w4();
                     this.ShowPopup(w4);
+                    break;
+                }
+            case 5:
+                {
+                    var w5 = new w5();
+                    this.ShowPopup(w5);
                     break;
                 }
         }
